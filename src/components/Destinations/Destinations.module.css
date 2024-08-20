@@ -1,0 +1,88 @@
+.destinationsContainer {
+  margin-left: -27px;
+  padding: 138px;
+  padding-top: 3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: -100px;
+}
+
+.destinationsContainer h1 {
+  margin-bottom: 40px;
+  color: #c10841;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.destinationsContainer h1::before,
+  .destinationsContainer h1::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background: #c10841;
+    margin: 0 10px;
+  }
+
+.flagsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 2rem;
+  justify-items: center;
+  position: relative;
+}
+
+.specialFlagsWrapper {
+  grid-column: 2 / span 2; 
+  display: flex;
+  justify-content: center; 
+  align-self: center;
+  margin-left: -329px;
+  gap: 2rem; 
+}
+
+
+.flagItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 0px;
+  padding-bottom: 27px;
+  border: 1px solid whitesmoke;
+  border-radius: 0px;
+  overflow: hidden; /* Ensure content doesn't overflow */
+  position: relative;
+  width: 325px; /* Explicit width */
+  height: 260px; /* Explicit height */
+}
+
+.flagItem img {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: 100%; /* Make the image take up the full height of its container */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  transition: transform 0.5s ease;
+  transform-origin: center bottom; /* Set the origin to bottom center for zoom effect */
+
+}
+
+.flagItem:hover img {
+  transform: scale(1.1); /* Zoom effect */
+}
+
+
+.flagItem p {
+  margin-top: 0.5rem;
+  font-weight: 900; 
+  font-size: 25px; 
+  color: #2C3E50; 
+}
+

@@ -1,0 +1,30 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.textContainer h3 {
+    padding: 29px 87px;
+    color: #0B1E3F;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.mainReasons{
+    padding: 1px 88px;
+    margin-top: -15px;
+    
+}
+
+.reasons{
+    margin-left: 20px;
+}
+
+p{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,141 @@
+.footer {
+  background-color: #0B1E3F;
+  color: white;  /* padding: 40px 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.footerSection {
+  flex: 1;
+  min-width: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.footerTitle {
+  font-size: 1.5em;
+  color: white;
+
+  margin-bottom: 30px;
+}
+
+
+
+.footerList {
+  list-style: none;
+  padding: 0;
+}
+
+.footerItem {
+  margin-bottom: 10px;
+}
+
+.footerLink {
+  color: white;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+.socialIcons {  
+  display: flex;  
+}  
+
+.socialIcon {  
+  color: white;  
+  font-size: 1.2em;  
+  border: 1px solid white;  
+  border-radius: 50%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  width: 30px;  
+  height: 30px;  
+  margin-right: 5px; 
+}  
+
+.socialIcon:last-child {  
+  margin-right: 140px; 
+}
+
+.footerBottom {  
+  /* display: flex;   */
+  justify-content: space-between;  
+  align-items: center;  
+  width: 100%;  
+  margin-top: 20px;  
+  border-top: 1px solid #ffffff40;  
+  padding: 20px 40px; /* Adjusted padding */  
+  background-color: #0B1E3F; /* Ensure it matches the footer */  
+}  
+
+.footerBottomText {  
+  margin: 0;  
+  color: white; 
+}  
+
+.footerBottomLinks {
+  display: flex;
+  margin-left: 570px; 
+  align-items: center;
+}
+
+.footerBottomLink {
+  margin-left: 200px;
+  margin-top: -30px;
+  text-decoration: none;
+  color: white;
+  position: relative; 
+  padding-right: 20px; 
+}
+
+.footerBottomLink::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 29%;
+  transform: translateY(-50%);
+  width: 0.6px;
+  height: 26px;
+  background-color: rgb(124, 124, 124);
+}
+
+.footerBottomLink:last-child::after {
+  display: none;
+}
+
+.scholarnova_image img{
+  height: 70px;
+  width: 70px;
+}
+
+.footerText{
+  color: white;
+}
+
+ .footer ul li {
+  list-style: none;
+
+}
+.footer ul li a {
+  margin-bottom: 5px;
+  font-size: 15px;
+  transition: .3s;
+}
+
+.footer ul li a::before {
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer ul li a:hover {
+  letter-spacing: 1px;
+  box-shadow: none;
+  text-decoration: none;
+}

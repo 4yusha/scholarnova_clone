@@ -1,0 +1,62 @@
+.preparationBox {
+  background: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+}
+
+.preparationBox h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #2C3E50;
+  margin: 0;
+}
+
+.preparation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.preparationContainer {
+  padding: 50px;
+  padding-top: 3rem;
+  align-items: center;
+}
+
+.preparationContainer h1 {
+  margin-bottom: 40px;
+  color: #c10841;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.preparationContainer h1::before,
+.preparationContainer h1::after {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background: #c10841;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

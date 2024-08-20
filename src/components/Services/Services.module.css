@@ -1,0 +1,91 @@
+.servicesContainer {
+    padding: 50px;
+    padding-top: 3rem;
+    align-items: center;
+}
+
+.servicesContainer h1 {
+    margin-bottom: 40px;
+    color: #c10841;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    padding: 0 20px;
+}
+
+.servicesContainer h1::before,
+  .servicesContainer h1::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background: #c10841;
+    margin: 0 10px;
+  }
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.serviceBox {
+    background-color: white;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: left;
+}
+
+.serviceBox:hover {
+    background-color: #c10841;
+    color: white;
+}
+
+.serviceBox:hover .icon {
+    color: white;
+}
+
+.serviceBox:hover .title,
+.serviceBox:hover h3,
+.serviceBox:hover .description,
+.serviceBox:hover p {
+    color: white;
+}
+
+.icon {
+    color: #c10841;
+    font-size: 60px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.title, h3 {
+    font-weight: 800;
+    color: #2C3E50;
+    transition: color 0.3s ease;
+}
+
+.description, p {
+    color: #2C3E50;
+    transition: color 0.3s ease;
+}
+
+.serviceBox h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.serviceBox p {
+    margin: 15px 0 0;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}

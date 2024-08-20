@@ -1,0 +1,90 @@
+.whyscholarnovaContainer {
+  padding: 50px;
+  padding-top: 3rem;
+  align-items: center;
+}
+
+.whyscholarnovaContainer h1 {
+  margin-bottom: 40px;
+  color: #c10841;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.whyscholarnovaContainer h1::before,
+.whyscholarnovaContainer h1::after {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background: #c10841;
+  margin: 0 10px;
+}
+
+.whyscholarnovaContainer p {
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  color: #808B8D;
+  font-weight: 400;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.whyscholarnova {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.whyscholarnovaBox {
+  background: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s;
+  margin-top: 50px;
+}
+
+.iconContainer {
+  width: 80px;
+  height: 80px;
+  background: #c10841;
+  border: 2px solid #c10841;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.whyscholarnovaBox .icon {
+  font-size: 2.5rem;
+  color: #fff; 
+}
+
+.whyscholarnovaBox h2 {
+  font-size: 1rem;
+  color: #2C3E50;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.whyscholarnovaBox .underline {
+  width: 50px;
+  height: 2px;
+  background: #c10841;
+  margin: 10px auto 0;
+}

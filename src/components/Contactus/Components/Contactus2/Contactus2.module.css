@@ -1,0 +1,195 @@
+.ContactusContainer {
+    padding: 50px;
+    padding-top: 3rem;
+    align-items: center;
+}
+
+.ContactusContainer h1 {
+    margin-bottom: 40px;
+    color: #c10841;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    padding: 0 20px;
+}
+
+.ContactusContainer h1::before,
+.ContactusContainer h1::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background: #c10841;
+    margin: 0 10px;
+}
+
+.contactSection {
+    display: flex;
+    justify-content: space-between;
+    margin: -55px 20px;
+}
+
+.contactDetails {
+    flex: 1;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.contactDetails h3 {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contactDetails p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detailsColor{
+    color: #c10841;
+}
+
+.iconBox {
+    width: 53px;
+    height: 53px;
+    background-color: #c10841;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.iconBox svg {
+    color: white; /* Set the icon color to white */
+    font-size: 20px;
+}
+
+.map {
+    flex: 1;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+
+.enquirySectionContainer {
+    padding: 50px;
+    padding-top: 3rem;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.enquirySectionContainer h1 {
+    margin-bottom: 40px;
+    color: #c10841;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    padding: 0 20px;
+}
+
+.enquirySectionContainer h1::before,
+.enquirySectionContainer h1::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background: #c10841;
+    margin: 0 10px;
+}
+
+.enquiryForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.enquiryForm .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.enquiryForm .row input, .enquiryForm .row textarea {
+    width: 32%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 6px;
+}
+
+.enquiryForm .row input:last-child {
+    width: 32%;
+}
+
+.enquiryForm .rowOne {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.enquiryForm .rowOne input, .enquiryForm .rowOne textarea {
+    width: 52%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 6px;
+}
+
+/* .enquiryForm .rowOne input:last-child {
+    width: 52%;
+} */
+
+.enquiryForm .rowTwo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.enquiryForm .rowTwo input, .enquiryForm .rowTwo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 6px;
+}
+/* 
+.enquiryForm .rowTwo input:last-child {
+    width: 52%;
+} */
+
+
+.enquiryForm textarea {
+    width: 100%;
+    resize: none;
+}
+
+.enquiryForm button {
+    padding: 12px 25px;
+    background-color: #c10841;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-right: 1012px;
+    margin-top: -13px;
+}
+
+.enquiryForm button:hover {
+    background-color: #a00734;
+}
